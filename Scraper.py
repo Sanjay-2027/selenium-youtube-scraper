@@ -1,7 +1,3 @@
-from email import encoders
-from email.mime.base import MIMEBase
-
-import body as body
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -10,6 +6,8 @@ import smtplib
 import os
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from email import encoders
+from email.mime.base import MIMEBase
 import json
 
 
