@@ -1,9 +1,0 @@
-language = "python3"
-run = "python Scraper.py"
-modules = ["python-3.10:v25-20230920-d4ad2e4"]
-
-[nix]
-channel = "stable-22_11"
-
-[deployment]
-run = ["sh", "-c", "Scraper.py"]
